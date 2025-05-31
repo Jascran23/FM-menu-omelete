@@ -148,3 +148,14 @@ main{
     padding-left: 25px;
     border-bottom: 1px solid hsl(30, 54%, 90%);
 }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px 0;
+    background: hsl(30, 52%, 71%);
+    color: hsl(14, 45%, 36%);
+}
+.attribution a { 
+    color: hsl(0, 0%, 100%); 
+}
