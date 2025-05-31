@@ -1,0 +1,93 @@
+/*
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif',serif;
+    font-weight: 400; 
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(30, 54%, 90%);
+    padding: 50px 0;
+}
+
+.menu{
+    width: 700px;
+    height: auto;
+    padding: 24px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+.menu img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.menudescricao h1{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif',serif;
+    font-weight: 400;
+}
+
+.menudescricao p{
+    margin-top: 15px;
+}
+
+.menupreparationtime{
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.menupreparationtime p{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+.menupreparationtime ul{
+    margin-left: 17px;
+}
+
+.menupreparationtime ul > li{
+ list-style-position: outside;
+ padding-left: 20px;
+
+}
+
+.menupreparationtime span{
+    font-weight: 600;
+}
