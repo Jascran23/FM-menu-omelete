@@ -44,7 +44,7 @@ main{
     height: auto;
     padding: 24px;
     background: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 25px;
     color: hsl(30, 10%, 34%);
 }
 
@@ -90,4 +90,61 @@ main{
 
 .menupreparationtime span{
     font-weight: 600;
+}
+
+.menuingredients{
+    padding-bottom: 25px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.menuingredients ul{
+    margin-top: 15px;
+    margin-left: 20px;  
+}
+.menuingredients ul > li{
+ list-style-position: outside;
+ padding-left: 20px;
+}
+
+.menuinstructions {
+    padding-bottom: 25px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.menuinstructions ol{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menuinstructions ol > li{
+  list-style-position: outside;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.menuinstructions ol > li::marker{
+   color: hsl(14, 45%, 36%);
+   font-weight: 700; 
+}
+
+.menunutricion p{
+    margin-top: 15px;
+
+}
+
+.menunutricion table{
+    margin-top: 15px;
+    width: 100%;
+}
+.menunutricion table tr > td:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+
+}
+
+.menunutricion table td{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
 }
